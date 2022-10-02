@@ -1,0 +1,296 @@
+
+@media only screen and (min-width: 1400px) and (max-width: 1920px) {
+.feature-content-width {
+    width: 65.3333%;
+}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+.about-info h2 {
+    font-size: 30px;
+}
+.hire-content h1 {
+    font-size: 33px;
+}
+.counter-info h2 {
+    font-size: 20px;
+}
+.work-overlay-title h5 {
+    font-size: 10px;
+}
+
+.work-overlay-title h2 {
+    font-size: 16px;
+}
+.work-overlay-button a {
+    font-size: 15px;
+}
+
+}
+
+@media only screen and (max-width: 991px) {
+.home-area .home-content h2 {
+    font-size: 30px;
+}
+.choose-box {
+    margin-bottom: 30px;
+}
+.choose-box:last-child {
+    margin-bottom: 0;
+}
+.about-img {
+    margin-top: 40px;
+}
+.counter-info {
+    padding-right: 0;
+    margin-bottom: 30px;
+}
+.work-overlay-title h5 {
+    font-size: 14px;
+}
+
+.work-overlay-title h2 {
+    font-size: 20px;
+}
+.work-overlay-button a {
+    font-size: 18px;
+}
+.price-item {
+    margin-bottom: 30px;
+}
+.price-item:last-child {
+    margin-bottom: 0;
+}
+
+.blog-item {
+    margin-bottom: 30px;
+}
+.blog-item:last-child {
+    margin-bottom: 0;
+}
+.footer-link {
+    margin-bottom: 35px;
+}
+
+.footer-link:nth-last-child(-n + 2) {
+    margin-bottom: 0;
+}
+
+}
+
+
+@media only screen and (max-width: 767px) {
+.home-area .home-content h2 {
+    font-size: 25px;
+}
+.choose-box {
+    margin-bottom: 30px;
+}
+.choose-box:last-child {
+    margin-bottom: 0;
+}
+.about-info {
+    padding-right: 0;
+}
+.about-info h2 {
+    font-size: 30px;
+}
+.about-img {
+    margin-top: 40px;
+}
+.counter-info {
+    padding-right: 0;
+    margin-bottom: 30px;
+}
+.hire-content h1 {
+    font-size: 20px;
+}
+.work-overlay-title h5 {
+    font-size: 14px;
+}
+
+.work-overlay-title h2 {
+    font-size: 20px;
+}
+.work-overlay-button a {
+    font-size: 18px;
+}
+.price-item {
+    margin-bottom: 30px;
+}
+.price-item:last-child {
+    margin-bottom: 0;
+}
+
+.blog-item {
+    margin-bottom: 30px;
+}
+.blog-item:last-child {
+    margin-bottom: 0;
+}
+form#contact-form {
+    margin-bottom: 35px;
+}
+.footer-link {
+    margin-bottom: 35px;
+}
+
+.footer-link:last-child {
+    margin-bottom: 0;
+}
+.footer-subscribe {
+    margin-top: 30px;
+}
+
+}
+
+
+
+@media only screen and (max-width: 479px) {
+.navbar-nav {
+    margin-top: 8px;
+}
+.navbar-b.navbar-trans .nav-item, .navbar-b.navbar-reduce .nav-item {
+    position: relative;
+    padding-right: 10px;
+    padding-left: 0;
+    margin-top: 7px;
+}
+.home-area .home-content h2 {
+    font-size: 25px;
+}
+.choose-box {
+    margin-bottom: 30px;
+}
+.choose-box:last-child {
+    margin-bottom: 0;
+}
+.about-info {
+    padding-right: 0;
+}
+.about-info h2 {
+    font-size: 30px;
+}
+.about-img {
+    margin-top: 40px;
+}
+.counter-info {
+    padding-right: 0;
+    margin-bottom: 30px;
+}
+.hire-content h1 {
+    font-size: 20px;
+}
+.work-overlay-title h5 {
+    font-size: 14px;
+}
+
+.work-overlay-title h2 {
+    font-size: 20px;
+}
+.work-overlay-button a {
+    font-size: 18px;
+}
+.price-item {
+    margin-bottom: 30px;
+}
+.price-item:last-child {
+    margin-bottom: 0;
+}
+
+.blog-item {
+    margin-bottom: 30px;
+}
+.blog-item:last-child {
+    margin-bottom: 0;
+}
+form#contact-form {
+    margin-bottom: 35px;
+}
+.footer-link {
+    margin-bottom: 35px;
+}
+
+.footer-link:last-child {
+    margin-bottom: 0;
+}
+.footer-subscribe {
+    margin-top: 30px;
+}
+
+}
+
+
+@media screen and (max-width: 320px) and (min-width: 0px){
+.navbar-nav {
+    margin-top: 8px;
+}
+.navbar-b.navbar-trans .nav-item, .navbar-b.navbar-reduce .nav-item {
+    position: relative;
+    padding-right: 10px;
+    padding-left: 0;
+    margin-top: 7px;
+}
+.home-area .home-content h2 {
+    font-size: 25px;
+}
+.choose-box {
+    margin-bottom: 30px;
+}
+.choose-box:last-child {
+    margin-bottom: 0;
+}
+.about-info {
+    padding-right: 0;
+}
+.about-info h2 {
+    font-size: 30px;
+}
+.about-img {
+    margin-top: 40px;
+}
+.counter-info {
+    padding-right: 0;
+    margin-bottom: 30px;
+}
+.hire-content h1 {
+    font-size: 20px;
+}
+.work-overlay-title h5 {
+    font-size: 14px;
+}
+
+.work-overlay-title h2 {
+    font-size: 20px;
+}
+.work-overlay-button a {
+    font-size: 18px;
+}
+.price-item {
+    margin-bottom: 30px;
+}
+.price-item:last-child {
+    margin-bottom: 0;
+}
+
+.blog-item {
+    margin-bottom: 30px;
+}
+.blog-item:last-child {
+    margin-bottom: 0;
+}
+form#contact-form {
+    margin-bottom: 35px;
+}
+.footer-link {
+    margin-bottom: 35px;
+}
+
+.footer-link:last-child {
+    margin-bottom: 0;
+}
+.footer-subscribe {
+    margin-top: 30px;
+}
+}
