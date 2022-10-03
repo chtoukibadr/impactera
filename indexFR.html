@@ -13,7 +13,20 @@
 	
 	<link href="assets/css/style.css" rel="stylesheet">
 	<link href="assets/css/responsive.css" rel="stylesheet">
-	
+	<script>
+	var topIMG = "assets\img\logo1.png";
+	var sclIMG = "assets\img\logo2.png";
+
+	$('img[alt="Gabriela Silveira"]').attr("class", "logo")
+
+	$(window).scroll(function() {
+		var value = $(this).scrollTop();
+			if (value > 50)
+				$(".img").attr("src", sclIMG);
+			else
+				$(".img").attr("src", topIMG);
+				});
+	</script>
 </head>
 
 <body>
@@ -27,7 +40,7 @@
 	
 	<!-- Navbar Start -->
 	<nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
-		<div class="container"> <a class="navbar-brand js-scroll" href="index.html"><img id="" class="" src="assets\img\logo2.png" style="width:50%;height:50%;" alt="impactera"></a>
+		<div class="container"> <a class="navbar-brand js-scroll" href="index.html"><img id="" class="" src="assets\img\logoImpacterau.png" alt="impactera"></a>
 		
 			<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation"> <span></span>
 				<span></span>
@@ -49,9 +62,6 @@
 					</li>
 					<li class="nav-item"> <a class="nav-link js-scroll" href="#contact"><span data-hover="Contact">Contact</span></a>
 					</li>
-					<li class="nav-item"> <a class="nav-link js-scroll" href="wwww.impactera.com/index.html"><span data-hover="Contact">FR/EN</span></a>
-					</li>
-					
 				</ul>
 			</div>
 		</div>
@@ -67,7 +77,7 @@
 						<div class="col-md-12">
 							<div class="home-content">
 								<br><br><br>
-								<h2>Talented team of CCH tagetik<br>experts!</h2>
+								<h2>Equipe d'experts<br>CCH tagetik!</h2>
 								<!--p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 								<br>eiusmod tempor incididunt ut labore et dolore magna.</p--> 
 								<a href="#" class="button button-1">Contact Us<span></span></a>
