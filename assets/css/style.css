@@ -71,7 +71,7 @@ img {
 }
 
 img logo {
-	content: url(../img/logoImpactera.png);
+	content: url(../img/lo.svg);
 }
 a {
 	color: #517291;
@@ -427,7 +427,8 @@ dl, ol, ul {
 
 .navbar-b.navbar-reduce .navbar-brand {
 	color: #000;
-	content : url(https://chtoukibadr.github.io/impactera/assets/img/logo1.png);
+	width:50%;
+	content : url(https://chtoukibadr.github.io/impactera/assets/img/logo.svg);
 	
 }
 
@@ -560,7 +561,7 @@ dl, ol, ul {
  * 04.Home Section Style
  *************************************/
 .home-area {
-	height: 60vh;
+	height: 40vh;
 	position: relative;
 	color: #fff;
 	text-align: center;
@@ -704,8 +705,8 @@ dl, ol, ul {
  * 07.Feature Section Style
  *************************************/
 .feature-area {
-	background: url(../img/fadq.jpg);
-    background-repeat: no-repeat;
+	background: url(../img/faq.jpg);
+    /*background-repeat: no-repeat;*/
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
